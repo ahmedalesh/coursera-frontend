@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: #000;
 }
 
 div.container{
@@ -28,9 +28,9 @@ div.container{
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: #000;
+	background-color: #fff;
 	border: 1px solid #000;
-    text-align: center;
 }
 
 hr {
@@ -40,12 +40,16 @@ hr {
     border-top: 2px solid #000;
 }
 
+ul#nav-list{
+	margin: 0px -15px;
+}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #000
 }
 
 #our-menu-title{
-	color:black;
+	margin-top: 0px;
+	margin-bottom:20px;
 }
 
 #global{
@@ -58,14 +62,14 @@ div.section-title{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    color:black;
-    padding-bottom: 20px
+    margin: 10px; 
 }
 
 div#content{
 	height: 1000px;
 	padding: 10px;
 	padding-top: 0px;
+
 }
 
 #main-content{
